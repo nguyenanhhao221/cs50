@@ -6,4 +6,8 @@ int main(void) {
     printf("meow \n");
     i++;
   }
+
+  for (int j = 0; j < 3; j++) {
+    printf("meow meow \n");
+  }
 }
