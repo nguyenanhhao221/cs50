@@ -20,9 +20,12 @@ int main() {
   }
 
   // remember the nul \0
-  for (int i, n = strlen(s); i <= n; i++) {
-    t[i] = s[i];
-  }
+  /*for (int i, n = strlen(s); i <= n; i++) {*/
+  /*  t[i] = s[i];*/
+  /*}*/
+
+  // Instead of the for loop above we can also do this
+  strcpy(t, s);
 
   // For safe access to t
   if (strlen(t) > 0) {
