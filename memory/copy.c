@@ -32,6 +32,9 @@ int main() {
     t[0] = toupper(t[0]);
   };
 
+  // Free the memory
+  free(t);
+
   printf("%s\n", s);
   printf("%s\n", t);
   return 0;
